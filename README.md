@@ -1,5 +1,5 @@
 # xhrJSON
-An API for simplifying XHR without JQuery
+**xhrJSON** is an API for simplifying XML-HTTP-Requests whithout the need of a heavy librarie like JQuery.
 
 ___
 ### Syntax
