@@ -27,7 +27,7 @@ To use xhrJSON paste
 <script src="https://raw.githubusercontent.com/GaussAGCEO/xhrJSON/master/xhrJSON.min.js"></script>
 ```
 into your application's header.
-You should not use this link for production.
+You should only use this link for development.
 
 ### Future Features
 
