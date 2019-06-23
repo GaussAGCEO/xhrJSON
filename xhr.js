@@ -12,18 +12,18 @@ function xhrJSON(Alldata, callback){
 }
 
 function encodeJSONForURIparameters(object){
-let output = "";
-var keys = [];
-for(var k in object) keys.push(k);
-for(i = 0; i<= keys.length-1; i++){
-if(i == keys.length-1){
-    output+=keys[i]+"="+object[keys[i]];
-}
-else{
-    output+=keys[i]+"="+object[keys[i]]+"&";
-}
-}
-return output;
+    let output = "";
+    var keys = [];
+    for(var k in object) keys.push(k);
+    for(i = 0; i<= keys.length-1; i++){
+        if(i == keys.length-1){
+            output+=keys[i]+"="+object[keys[i]];
+        }
+        else{
+            output+=keys[i]+"="+object[keys[i]]+"&";
+        }
+    }
+    return output;
 }
 
 
