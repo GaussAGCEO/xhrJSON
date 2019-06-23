@@ -20,6 +20,15 @@ It is almost like JQuery and supports the parameters url and data which you prob
 * **data** has to be **JSON** formatted.
 * You **HAVE TO** make an anonymous function for the callback. Otherwise it will not work.
 
+### Usage
+
+To use xhrJSON paste
+```html
+<script src="https://raw.githubusercontent.com/GaussAGCEO/xhrJSON/master/xhrJSON.min.js"></script>
+```
+into your application's header.
+You should not use this link for production.
+
 ### Future Features
 
 In a later version it will support the JQuery like parameters **success** instead of a seperate callback and the parameter **error** for error handling. 
